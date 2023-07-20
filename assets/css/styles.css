@@ -325,13 +325,12 @@
   
   .certificates,
   .experiencia,
-  .idioms,
-  .skills,
-  .experiencia {
+  .skills{
     margin: var(--m-5) 0;
   }
   
   .content__subtitle {
+    margin-top: 2em;
     width: fit-content;
   }
   
@@ -381,9 +380,18 @@
     display: block;
     margin: var(--m-1);
   }
-  
+  .education__item_1{
+  /* margin-top:  20px; */
+  font-size: var(--normal-font-size);
+  color: var(--text-color-light);
+  display: block;
+  margin-top: 2em;
+  }
+
   .certificate__item {
     margin-bottom: var(--m-2);
+    display: flex;
+    flex-direction: column;;
   }
   
   .certificate__title {
@@ -391,11 +399,6 @@
     margin-bottom: 0.7rem;
   }
   
-  .idioms__data {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: var(--m-2);
-  }
   
   .skills__data {
     display: grid;
@@ -440,11 +443,7 @@
       height: 103%;
     }
   
-    .idioms__data,
-    .skills__data {
-      grid-template-columns: 1fr 1fr;
-      margin: 1.2rem;
-    }
+   
   }
   
   /* < 700px */
@@ -493,10 +492,6 @@
       margin: var(--m-2);
     }
   
-    .idioms__data {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
   
     .skills__item {
       width: 5em;
@@ -513,20 +508,30 @@
   /* < 500px */
   
   @media (max-width: 500px) {
-    .skills__data,
-    .idioms__data {
+    .skills__data {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       margin: var(--m-2);
     }
   
-    .idioms__item {
-      width: 10rem;
-    }
   }
 
 .experiencia {
  justify-content: center;
  text-align: justify;
 }
+
+.logo_usach{
+  margin-left: 2rem;
+  width: 5rem;
+}
+
+.logo_certificacion_JS{
+  margin-left: 2rem;
+  width: 5rem;
+}
+
+/* .content__subtitle_cert{
+margin-top: 1em;
+} 
