@@ -47,7 +47,8 @@ function removeScale() {
 let areaCV = doc.getElementById("area-cv");
 
 let options = {
-  margin: 1,
+  // margin: 1,
+  // top: 1,
   filename: "CV - Luis Escobar Salas.pdf",
   image: { type: "jpeg", quality: 0.98 },
   html2canvas: { scale: 4 },
