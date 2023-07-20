@@ -500,7 +500,8 @@
   
     .skills__item {
       width: 5em;
-      margin: 7%
+      margin:
+      var(-m-3m-3)
     }
   
     .contact__link:hover {
