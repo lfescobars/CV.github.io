@@ -514,6 +514,13 @@
       flex-wrap: wrap;
       margin: var(--m-2);
     }
+
+    .logo_tcs{
+     margin-left: 0; 
+    }
+    .contenedor_logo_tcs{
+      margin-left: 0; 
+    }
   
   }
 
@@ -534,10 +541,18 @@
 
 .tcs_item {
   display: inline-flex;
-
+  justify-content: flex-end
 }
 
-.logo_tcs{
-  margin-left: 5em;
-  max-width: 10rem;
+.contenedor_logo_tcs{
+/* margin-left: 10em; */
+ text-align: end;
+ justify-content: flex-end 
+} 
+
+.certificate__title{
+  text-align: left;
+  margin-right: 5em;
+  margin-top: 1em;
 }
+
