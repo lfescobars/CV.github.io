@@ -546,13 +546,13 @@
 
 .contenedor_logo_tcs{
 /* margin-left: 10em; */
- text-align: end;
- justify-content: flex-end 
+ text-align: center;
+ justify-content: center
 } 
 
 .certificate__title{
   text-align: left;
-  margin-right: 5em;
+  margin-right: 3em;
   margin-top: 1em;
 }
 
